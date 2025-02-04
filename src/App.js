@@ -36,7 +36,7 @@ function App() {
     <div className="App">
      <h1>QR CODE GENERATOR</h1>
      <div className="card flex justify-content-center">
-            <InputTextarea autoResize value={query} onChange={(e) => setQuery(e.target.value)} rows={5} cols={30} />
+            <InputTextarea autoResize value={query} onChange={(e) => setQuery(e.target.value)} rows={5} cols={30} placeholder='enter your text here' />
         </div>
         <br></br>
         <Button label="Generate QR Code " onClick={genetateQrCode} />
